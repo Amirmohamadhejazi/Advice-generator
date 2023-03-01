@@ -1,0 +1,119 @@
+
+/* Font size (paragraph): 15px */
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+    /*background-color: hsl(216, 12%, 8%);*/
+ }
+
+.flex-center{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.trn3{
+    transition: 0.3s;
+}
+p{
+    margin: 0;
+}
+
+/* c + bg */
+
+
+
+.bg_lighgreen{
+    background-color: hsl(193, 38%, 86%);
+}
+.clighgreen{
+    color: hsl(193, 38%, 86%);
+}
+
+.bg_Neon{
+    background-color:  hsl(150, 100%, 66%);
+}
+.c_Neon{
+    color:  hsl(150, 100%, 66%);
+}
+ 
+.bg_grayish_blue{
+    background-color:  hsl(217, 19%, 38%);
+}
+.bg_dark_grayish_blue{
+    background-color:  hsl(217, 19%, 24%);
+}
+.bg_dark_blue{
+    background-color:  hsl(218, 23%, 16%);
+}
+
+
+/* c + bg */
+
+
+.manualFontsize{
+    font-size:  15px
+}
+
+.manualFontsizeMini{
+    font-size:  12px
+}
+
+
+.fwBold{
+    font-weight: 700;
+}
+.fwlight{
+    font-weight: 400;
+}
+.cardInfo{
+    position: relative;
+    width: 330px;
+    padding: 25px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.textJustify{
+    text-align: justify;
+}
+
+/* ********************************* box */
+.icon_hr , .btn_toggle_advice{
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    margin-left: auto;
+    padding: 14px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.btn_toggle_advice{
+    width: 50px;
+    height: 50px;
+    bottom: -10%;
+}
+
+picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+  }
+  picture img {
+   object-fit: cover; 
+      height: auto;
+      width:100%;
+  }
+
+@media only screen and (max-width: 340px) {
+    .cardInfo{
+        margin: 0 10px 0 10px;
+    }
+}
